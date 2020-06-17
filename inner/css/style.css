@@ -12,6 +12,7 @@ body{
 header{
 	background: url(../img/st.jpg) no-repeat;
 	background-size: cover;
+	background-position: center;
 	height: 2000px;
 }
 aside{
