@@ -1,0 +1,70 @@
+@font-face{
+	font-family: "FiraSansExtraCondensed italic";
+	src: url("../Fonds/FiraSansExtraCondensed-Italic.ttf");
+}
+@font-face{
+	font-family:"FiraSansExtraCondensed-LightItalic";
+	src: url("../Fonds/FiraSansExtraCondensed-LightItalic.ttf");
+}
+body{
+	font-family:"FiraSansExtraCondensed-LightItalic";
+}
+header{
+	background: url(../img/st.jpg) no-repeat;
+	background-size: cover;
+	height: 2000px;
+	width: 100%;
+}
+aside{
+	width: 20%;
+}
+h4{
+	color: black;
+	text-align: center;
+	font-style: oblique;
+	font-family: "FiraSansExtraCondensed italic";
+}
+main{
+	display: flex;
+	justify-content: space-around;
+	min-height: 1000px;
+	margin-bottom: 10%; 
+}
+h3{
+	font-family: "FiraSansExtraCondensed italic";
+}
+.article-main{
+	width: 50%;
+}
+.St4season, .St3season, .Elleven{
+	margin-top: 10%;
+}
+footer{
+	text-align: center;
+	color: purple;
+}
+@media (max-width: 1400px) and (min-width: 800px)
+{
+	.article-main{
+		width: 35%;
+	}
+	aside{
+		width: 20%;
+	}
+	main{
+		justify-content: space-between;
+	}
+}
+@media (max-width: 800px) and (min-width: 300px)
+{
+	main{
+		flex-direction: column;
+	}
+	aside{
+		width: 100%;
+	}
+	.article-main{
+		width: 100%;
+	}
+}
+
